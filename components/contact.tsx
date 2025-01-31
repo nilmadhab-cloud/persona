@@ -38,9 +38,9 @@ export default function ContactForm() {
         <Card className="w-full max-w-md">
             <CardHeader>
                 <CardTitle>Contact Us</CardTitle>
-                <CardDescription>
+{/*                 <CardDescription>
                     Report a bug, request a feature, or submit feedback
-                </CardDescription>
+                </CardDescription> */}
             </CardHeader>
             <CardContent>
                 <form ref={formRef} onSubmit={onSubmit} className="space-y-4">
